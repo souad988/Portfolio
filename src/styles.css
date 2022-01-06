@@ -4,12 +4,12 @@
 }
 
 .welcome {
-  font-family:sans-serif Inter;
+  font-family: sans-serif Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .menu_icon {
@@ -19,9 +19,9 @@
   top: 6px;
   margin-top: auto;
   margin-bottom: auto;
-  color: #172B4D;
+  color: #172b4d;
 }
-.headline> img {
+.headline > img {
   position: absolute;
   width: 100vw;
   height: 100vh;    
@@ -31,11 +31,11 @@
   margin-top: 47px;
   display: flex;
   flex-direction: column;
-  flex-grow:1;   
+  flex-grow: 1;   
 }
 
 .headline-1, .headline-2 {
-  font-family: Inter;
+  font-family: Inter Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -52,7 +52,7 @@
 } 
 
 .headline-description {
-  font-family:sans-serif Inter;
+  font-family: Inter Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
