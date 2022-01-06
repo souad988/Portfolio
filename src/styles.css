@@ -10,7 +10,6 @@
   font-size: 20px;
   line-height: 28px;
   color: #172b4d;
-
 }
 
 .menu_icon {
@@ -21,14 +20,12 @@
   margin-top: auto;
   margin-bottom: auto;
   color: #172b4d;
-
 }
 
 .headline > img {
   position: absolute;
   width: 100vw;
-  height: 100vh;  
-
+  height: 100vh;
 }
 
 .headline-container {
@@ -36,27 +33,21 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-
 }
 
-.headline-1, .headline-2 {
-
+.headline-1,
+.headline-2 {
   font-family: Inter Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;  
-
+  text-align: center;
 }
 
-.headline-1 {
-  color: #36b37e; 
-}
+.headline-1 { color: #36b37e; }
 
-.headline-2 {
-  color: #172b4d;
-} 
+.headline-2 { color: #172b4d; }
 
 .headline-description {
   font-family: Inter Arial, sans-serif;
@@ -66,7 +57,6 @@
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  
 }
 
 .social_media {
