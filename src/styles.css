@@ -1,3 +1,8 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -45,26 +50,30 @@
 .headline-1,
 .headline-2,
 .works_headline {
+  font-size: 35px;
+}
+
+.headline-1,
+.headline-2,
+.works_headline,
+.headline-description
+.about_me > h3 {
   font-family: Inter Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
   text-align: center;
 }
 
 .headline-1 { color: #36b37e; }
 
 .headline-2,
-.works_headline { color: #172b4d; }
+.works_headline,
+.headline-description,
+.about_me > h3 { color: #172b4d; }
 
 .headline-description {
-  font-family: Inter Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
-  color: #172b4d;
   padding: 0 1em;
 }
 
@@ -125,14 +134,18 @@
   row-gap: 34px;
 }
 
-.card {
+.card,
+.aboutme_card {
   background-color: #ebf0ee;
   border-radius: 4px;
   display: flex;
-  flex-direction:column-reverse;
-  min-height: 75vh;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+}
+
+.card {
+  flex-direction:column-reverse;
+  min-height: 75vh;
 }
 
 .card_info {
@@ -156,14 +169,24 @@
   width: 80%;
 }
 
-.card_languages {
+.card_languages,
+.languages_list {
   align-self: stretch;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin: 10px ;
 }
 
-.language {
+.languages_list {
+  /*flex-wrap: wrap;*/
+}
+
+.card_languages > .language {
   background-color: #ebf0ee;
+}
+
+.card_languages > .language,
+.languages_list > .language {
   border-radius: 4px;
   font-family: Inter Arial, sans-serif;
   font-style: normal;
@@ -172,10 +195,20 @@
   line-height: 8px;
   letter-spacing: 0.03em;
   color: #3a4a42;
-  padding: 5px;
+  padding: 0 5px;
+  margin: 5px;
 }
 
-.card_info > button {
+.languages_list > .language {
+  background-color: white;
+  color: #36B37E;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 10px;
+}
+
+.card_info > button,
+.about_me > button {
   background-color: #36b37e;
   border-radius: 4px;
   font-family: Inter Arial, sans-serif;
@@ -186,12 +219,94 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+}
+
+.card_info > button {
   height: 20%;
+}
+
+.about_me > button {
+  height: 12%;
+  width: 60%;
 }
 
 .about_me {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../media/images/aboutme1.png"),url("../media/images/aboutme2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right top;
+  margin: 1em 0;
+  padding:0 5%;
+  height: 60vh;
 }
+
+.about_me > h3 {
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0 auto;
+}
+
+.supporting_text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  padding: 0 auto;
+}
+
+.aboutme_card > .languages_section > p,
+.supporting_text {
+  font-family: Inter Arial, sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.aboutme_card {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  margin: 2vh auto;
+}
+
+.languages_aboutme_img {
+  border-radius: 50%;
+  background-color: white;
+  width: 25%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.languages_aboutme_img > img {
+  width: 70%;
+  height: 70%;
+}
+.aboutme_card > .languages_section > p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.about_me_cards {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.languages_section {
+  text-align: center;
+  align-self: stretch;
+}
+
+.languages_list {
+  flex-wrap: wrap;
+}
+
 
