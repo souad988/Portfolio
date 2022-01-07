@@ -1,5 +1,6 @@
 # Portfolio
 this is a personal portfolio to highlight my work and my skills
+this project is a one page website containing 3 sections the first one represent the home page it contains the headlines and the social media references,the next one displays my work(projects information) in liste of cards, and last one is a highlighter to my to my potential (skills, frameworks, coding languages)
 
 ## Built With
 ###### HTML/CSS
