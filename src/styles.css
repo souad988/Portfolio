@@ -205,6 +205,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  border: none;
 }
 
 .card_info > button {
