@@ -163,6 +163,7 @@
 .languages_list {
   align-self: stretch;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   margin: 10px;
 }
@@ -293,7 +294,8 @@
   color: #344563;
 }
 
-.about_me_cards {
+.about_me_cards,
+ul {
   list-style-type: none;
   padding: 0;
   display: flex;
