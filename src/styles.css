@@ -163,9 +163,9 @@
 .card_languages,
 .languages_list {
   align-self: stretch;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center; */
   margin: 10px;
 }
 
@@ -173,8 +173,7 @@
   background-color: #ebf0ee;
 }
 
-.card_languages > .language,
-.languages_list > .language {
+.card_languages > .language {
   border-radius: 4px;
   font-family: Inter Arial, sans-serif;
   font-style: normal;
@@ -188,9 +187,21 @@
 }
 
 .languages_list > .language {
+  border-radius: 4px;
+  font-family: Inter Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 8px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  padding: 0 5px;
+  margin: 5px;
   background-color: white;
   color: #36b37e;
   font-size: 12px;
+  float: left;
+  width: 70px;
   line-height: 16px;
   padding: 0 10px;
 }
