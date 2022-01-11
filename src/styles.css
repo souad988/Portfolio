@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800&display=swap');
 
-
 .body {
   display: flex;
   flex-direction: column;
@@ -198,6 +197,15 @@
   padding: 0 10px;
 }
 
+.card_info > button {
+  height: 20%;
+}
+
+.about_me > button {
+  height: 12%;
+  width: 60%;
+}
+
 .card_info > button,
 .about_me > button,
 .title_form > form > ul > li > button {
@@ -212,15 +220,6 @@
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
-}
-
-.card_info > button {
-  height: 20%;
-}
-
-.about_me > button {
-  height: 12%;
-  width: 60%;
 }
 
 .card_info > button:hover,
@@ -323,9 +322,8 @@ ul {
   height: 100vh;
   background-repeat: no-repeat;
   background-position: 100% 85%;
-
   display: grid;
-  grid-template-rows: 85% 7% 5% ;
+  grid-template-rows: 85% 7% 5%;
 }
 
 .title_form {
@@ -360,7 +358,7 @@ ul {
 .title_form > form > ul > li > button {
   width: 129px;
   height: 48px;
-  padding:12px ;
+  padding: 12px;
   align-self: center;
 }
 
@@ -371,12 +369,12 @@ form > ul {
 }
 
 form > ul > li > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #6B778C;
+  color: #6b778c;
   opacity: 1; /* Firefox */
 }
 
 form > ul > li > input {
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   height: 35px;
 }
 
@@ -391,10 +389,11 @@ form > ul > li > input {
 
 form > ul > li > textarea {
   height: 80px;
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
 }
+
 form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #091E42;
+  color: #091e42;
   font-family: 'Inter', serif;
   opacity: 1; /* Firefox */
 }
