@@ -166,7 +166,7 @@
   margin: 10px;
 }
 
-.card_languages > .language {
+.card_languages > li {
   background-color: #ebf0ee;
   border-radius: 4px;
   font-family: Inter Arial, sans-serif;
@@ -180,7 +180,7 @@
   margin: 5px;
 }
 
-.languages_list > .language {
+.languages_list > li {
   border-radius: 4px;
   font-family: Inter Arial, sans-serif;
   font-style: normal;
