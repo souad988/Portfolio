@@ -370,9 +370,10 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   font-family: Inter Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 31px;
+  font-size: 36px;
   line-height: 36px;
   color: #172b4d;
+  align-self: flex-end;
 }
 
 .title_form > form > ul {
