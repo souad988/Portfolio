@@ -334,6 +334,7 @@ form > ul > li > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 form > ul > li > input {
   border: 1px solid #d0d9d4;
   height: 35px;
+  padding-left: 10px;
 }
 
 .email {
@@ -348,6 +349,7 @@ form > ul > li > input {
 form > ul > li > textarea {
   height: 80px;
   border: 1px solid #60c095;
+  padding-left: 10px;
 }
 
 form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
