@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800&display=swap');
+
 .body {
   display: flex;
   flex-direction: column;
@@ -195,8 +197,16 @@
   padding: 0 10px;
 }
 
-.card_info > button,
+.card_info > button {
+  height: 20%;
+}
+
 .about_me > button {
+  height: 12%;
+  width: 60%;
+}
+
+.buttons {
   background-color: #36b37e;
   border-radius: 4px;
   font-family: Inter Arial, sans-serif;
@@ -210,23 +220,12 @@
   border: none;
 }
 
-.card_info > button {
-  height: 20%;
-}
-
-.about_me > button {
-  height: 12%;
-  width: 60%;
-}
-
-.card_info > button:hover,
-.about_me > button:hover {
+.buttons:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-.card_info > button:focus,
-.about_me > button:focus {
+.buttons:focus {
   background: #008552;
 }
 
@@ -310,4 +309,88 @@ ul {
 
 .languages_list {
   flex-wrap: wrap;
+}
+
+.footer {
+  background-image: url("../media/images/contactme.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 100% 85%;
+  display: grid;
+  grid-template-rows: 85% 7% 5%;
+}
+
+form > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+form > ul > li > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6b778c;
+  opacity: 1; /* Firefox */
+}
+
+form > ul > li > input {
+  border: 1px solid #d0d9d4;
+  height: 35px;
+  padding-left: 10px;
+}
+
+.email {
+  text-align: center;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+form > ul > li > textarea {
+  height: 80px;
+  border: 1px solid #60c095;
+  padding-left: 10px;
+}
+
+form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #091e42;
+  font-family: 'Inter', serif;
+  opacity: 1; /* Firefox */
+}
+
+.title_form {
+  display: grid;
+  grid-template-rows: 53% 47%;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.title_form > h3 {
+  text-align: center;
+  font-family: Inter Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #172b4d;
+  align-self: flex-end;
+}
+
+.title_form > form > ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title_form > form > ul > li {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_form > form > ul > li > button {
+  width: 129px;
+  height: 48px;
+  padding: 12px;
+  align-self: center;
 }

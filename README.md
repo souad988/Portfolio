@@ -26,6 +26,10 @@
 - LinkedIn: [www.linkedin.com/in/souad-el-mansouri-4725491a0]()
 
 ## 🤝 Contributing
+**Philip Modinos**
+- GitHub: [@Ninjaphil24](https://github.com/Ninjaphil24)
+- Twitter: [@PModinos](https://twitter.com/PModinos)
+- LinkedIn: [Philip Modinos](https://www.linkedin.com/in/philip-modinos-14195021/)
 
 Contributions, issues, and feature requests are welcome!
 
