@@ -138,9 +138,9 @@
 
 @media (min-width: 600px) {
   .works_cards {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  column-gap: 5%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 5%;
   }
 }
 
@@ -356,13 +356,14 @@ form > ul > li > input {
 @media (max-width: 992px) {
   .footer_divider {
     display: none;
-  }  
+  }
 }
 
 @media (min-width: 992px) {
   .email {
     display: none;
   }
+
   .footer_divider {
     display: block;
   }
@@ -425,4 +426,3 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   padding: 12px;
   align-self: center;
 }
-
