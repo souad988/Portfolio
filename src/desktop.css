@@ -1,0 +1,73 @@
+body {
+  background-image: url("../media/images/Header-llustration-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 0%;
+  font-family: Inter Arial, sans-serif;
+  font-style: normal;
+}
+
+.home {
+  background-image: none;
+  justify-content: center;
+  margin: auto;
+  width: 67%;
+  margin-top: 5vh;
+  }
+
+.header {
+  display: none;
+}  
+
+.desktop_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  color: #42526e;
+  font-weight: bold;
+}
+
+.desktop_nav {
+  width: 23%;
+}
+
+.desktop_nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headline-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+.social_media {
+  padding: 0%;
+}
+
+.links {
+  width: 18%;
+  margin: auto;
+}
+
+.middle_section {
+  margin-top: 18vh;
+}
+
+.works_cards {
+  margin-top: 5%;
+  min-width: 40vh;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+}
+
+.about_me {
+  background-image: url("../media/images/illustration-about me-1-desktop@2x.png"), url("../media/images/illustration-about-me-2-desktop@2x.png");
+  background-position: top right, left;
+  padding: 0 20%
+}
+
