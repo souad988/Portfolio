@@ -1,0 +1,115 @@
+body {
+  background-image: url("../media/images/Header-llustration-desktop@2x.png"), url("../media/images/illustration-1-contact-form-desktop.png"), url("../media/images/illustration-2-contact-form-desktop@2x.png"), url("../media/images/contact form-illustratoin-3-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-position: top, 0% 99%, 30% 96%, 100% 99%;
+  background-size: contain, 15%, 10%, 15%;
+  margin: auto 0%;
+  font-family: Inter Arial, sans-serif;
+  font-style: normal;
+}
+
+.home {
+  background-image: none;
+  justify-content: center;
+  margin: auto;
+  width: 67%;
+  margin-top: 5vh;
+}
+
+.header {
+  display: none;
+}
+
+.desktop_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  color: #42526e;
+  font-weight: bold;
+}
+
+.desktop_nav {
+  width: 23%;
+}
+
+.desktop_nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headline-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+.social_media {
+  padding: 0%;
+}
+
+.links {
+  width: 18%;
+  margin: auto;
+}
+
+.middle_section {
+  margin-top: 18vh;
+}
+
+.cards {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 34px;
+}
+
+.margin_bloc {
+  width: 93%;
+  margin: 0 auto;
+}
+
+.card {
+  min-height: 57vh;
+}
+
+.about_me {
+  background-image: url("../media/images/illustration-about me-1-desktop@2x.png"), url("../media/images/illustration-about-me-2-desktop@2x.png");
+  background-position: top right, bottom left;
+  padding: 0 20%;
+  height: 50vh;
+}
+
+.aboutme_card {
+  margin: 2vh 10%;
+}
+
+.title_form {
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  align-items: flex-start;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.title_form h3 {
+  align-self: flex-start;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 26px;
+}
+
+form ul li {
+  margin: 2% 5%;
+}
+
+.getintouch {
+  align-self: flex-start !important;
+}
+
+.footer {
+  background-image: none;
+  margin-top: 10vh;
+}
