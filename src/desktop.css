@@ -1,8 +1,9 @@
 body {
-  background-image: url("../media/images/Header-llustration-desktop@2x.png");
+  background-image: url("../media/images/Header-llustration-desktop@2x.png") , url("../media/images/illustration-1-contact-form-desktop.png"), url("../media/images/illustration-2-contact-form-desktop@2x.png"), url("../media/images/contact form-illustratoin-3-desktop@2x.png");
   background-repeat: no-repeat;
-  background-size:contain;
-  margin-top: 0%;
+  background-position:top ,  0% 99% , 30% 96% , 100% 99%;
+  background-size:contain , 15% , 10% ,15%;
+  margin: auto 0%;
   font-family: Inter Arial, sans-serif;
   font-style: normal;
 }
@@ -58,17 +59,27 @@ body {
   margin-top: 18vh;
 }
 
-.works_cards , .about_me_cards{
+.cards {
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
   row-gap: 34px;
 }
 
+.margin_bloc {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.card {
+  min-height: 47vh;
+}
+
 .about_me {
   background-image: url("../media/images/illustration-about me-1-desktop@2x.png"), url("../media/images/illustration-about-me-2-desktop@2x.png");
-  background-position: top right, left;
-  padding: 0 20%
+  background-position: top right,bottom left;
+  padding: 0 20%;
+  height: 50vh;
 }
 
 .aboutme_card {
@@ -76,7 +87,30 @@ body {
 }
 
 
-.about_me_cards >li {
-
+.title_form {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    align-items: flex-start;
+    width: 90vw;
+    margin: 0 auto;
 }
 
+.title_form h3 {
+    align-self:flex-start;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 26px;
+}
+
+form ul li {
+    margin: 2% 5%;
+}
+
+.getintouch {
+  align-self:flex-start !important;
+}
+
+.footer {
+  background-image: none;
+  margin-top: 10vh;
+}

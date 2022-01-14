@@ -248,7 +248,7 @@
 .about_me {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   background-image: url("../media/images/aboutme1.png"), url("../media/images/aboutme2.png");
   background-repeat: no-repeat;
@@ -329,11 +329,11 @@ ul {
 
 .footer {
   background-image: url("../media/images/contactme.png");
-  height: 100vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-position: 100% 85%;
   display: grid;
-  grid-template-rows: 85% 7% 5%;
+  grid-template-rows: 93% 7%;
 }
 
 form > ul {
@@ -351,6 +351,21 @@ form > ul > li > input {
   border: 1px solid #d0d9d4;
   height: 35px;
   padding-left: 10px;
+}
+
+@media (max-width: 992px) {
+  .footer_divider {
+    display: none;
+  }  
+}
+
+@media (min-width: 992px) {
+  .email {
+    display: none;
+  }
+  .footer_divider {
+    display: block;
+  }
 }
 
 .email {
@@ -410,3 +425,4 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   padding: 12px;
   align-self: center;
 }
+
