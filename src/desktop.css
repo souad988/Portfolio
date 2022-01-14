@@ -58,16 +58,25 @@ body {
   margin-top: 18vh;
 }
 
-.works_cards {
+.works_cards , .about_me_cards{
   margin-top: 5%;
-  min-width: 40vh;
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
+  row-gap: 34px;
 }
 
 .about_me {
   background-image: url("../media/images/illustration-about me-1-desktop@2x.png"), url("../media/images/illustration-about-me-2-desktop@2x.png");
   background-position: top right, left;
   padding: 0 20%
+}
+
+.aboutme_card {
+  margin: 2vh 10%;
+}
+
+
+.about_me_cards >li {
+
 }
 

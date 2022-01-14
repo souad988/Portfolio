@@ -39,7 +39,6 @@
   background-image: url("../media/images/header-illsutration-mobile@2x.png");
   background-size: contain;
   background-repeat: no-repeat;
-  /*background-position-x: right ;*/
   background-position: 100% 100%;
   margin: 1em 0;
   display: flex;
@@ -285,7 +284,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 60vh;
+  height: 50vh;
   margin: 2vh auto;
 }
 
@@ -293,7 +292,7 @@
   border-radius: 50%;
   background-color: white;
   width: 25%;
-  height: 20%;
+  height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
