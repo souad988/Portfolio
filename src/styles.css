@@ -128,6 +128,12 @@
   margin-bottom: 0;
 }
 
+@media (min-width: 992px) {
+  .works_headline_indicator {
+    display: none;
+  }
+}
+
 .works_cards {
   align-self: stretch;
   margin-top: 10%;
@@ -140,7 +146,7 @@
   .works_cards {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    column-gap: 5%;
+    column-gap: 2%;
   }
 }
 
@@ -197,8 +203,8 @@
   font-family: Inter Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 8px;
+  font-size: 10px;
+  line-height: 6px;
   letter-spacing: 0.03em;
   color: #3a4a42;
   padding: 0 5px;
