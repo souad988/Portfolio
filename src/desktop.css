@@ -113,3 +113,16 @@ form ul li {
   background-image: none;
   margin-top: 10vh;
 }
+
+.headline-1:hover {
+  color: #172b4d;
+  transition: 2s;
+  transform: scale(1.1);
+}
+
+.buttons:hover {
+  transition: 1s;
+  background-color: #172b4d;
+  color: white;
+  transform: translateX(10%);
+}
