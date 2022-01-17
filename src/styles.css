@@ -51,12 +51,6 @@
   flex-direction: column;
 }
 
-.headline-1:hover, .headline-2:hover {
-  font-size: 50px;
-  transform: scale(1.1);
-  transition: 2s;
-}
-
 .headline-1,
 .headline-2,
 .works_headline {
@@ -88,6 +82,13 @@
   margin: 0 auto;
 }
 
+.headline-1:hover,
+.headline-2:hover {
+  font-size: 50px;
+  transform: scale(1.1);
+  transition: 2s;
+}
+
 .social_media {
   padding: 0 20% 0 20%;
 }
@@ -104,13 +105,6 @@
 .links li {
   width: 15%;
   height: 15%;
-}
-
-.links > li:hover {
-  transition: 0.5s;
-  background-color: #36b37e;
-  border: #091e42 1px solid;
-  border-radius: 50%;
 }
 
 .scrolldown {
@@ -454,4 +448,11 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   height: 48px;
   padding: 12px;
   align-self: center;
+}
+
+.links > li:hover {
+  transition: 0.5s;
+  background-color: #36b37e;
+  border: #091e42 1px solid;
+  border-radius: 50%;
 }
