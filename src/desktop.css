@@ -6,6 +6,7 @@ body {
   margin: auto 0%;
   font-family: Inter Arial, sans-serif;
   font-style: normal;
+  min-height: max-content;
 }
 
 .home {
@@ -94,10 +95,10 @@ body {
   margin: 0 auto;
 }
 
-.title_form h3 {
+.title_form p {
   align-self: flex-start;
   text-align: left;
-  margin-left: 10%;
+  margin: 60px 0 0 30px;
   font-size: 26px;
 }
 

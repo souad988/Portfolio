@@ -354,7 +354,7 @@ ul {
 
 .footer {
   background-image: url("../media/images/contactme.png");
-  height: 90vh;
+  min-height: 90vh;
   background-repeat: no-repeat;
   background-position: 100% 85%;
   display: grid;
@@ -422,7 +422,7 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   padding: 0 15px;
 }
 
-.title_form > h3 {
+.title_form > p {
   text-align: center;
   font-family: Inter Arial, sans-serif;
   font-style: normal;
@@ -431,6 +431,7 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   line-height: 36px;
   color: #172b4d;
   align-self: flex-end;
+  padding: auto;
 }
 
 .title_form > form > ul {
@@ -446,8 +447,6 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 }
 
 .title_form > form > ul > li > button {
-  width: 129px;
-  height: 48px;
   padding: 12px;
   align-self: center;
 }
