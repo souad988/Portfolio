@@ -6,6 +6,7 @@ body {
   margin: auto 0%;
   font-family: Inter Arial, sans-serif;
   font-style: normal;
+  min-height: max-content;
 }
 
 .home {
@@ -79,7 +80,7 @@ body {
   background-image: url("../media/images/illustration-about me-1-desktop@2x.png"), url("../media/images/illustration-about-me-2-desktop@2x.png");
   background-position: top right, bottom left;
   padding: 0 20%;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .aboutme_card {
@@ -97,7 +98,7 @@ body {
 .title_form h3 {
   align-self: flex-start;
   text-align: left;
-  margin-left: 10%;
+  margin: 50px 0 0 25px;
   font-size: 26px;
 }
 
