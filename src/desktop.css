@@ -79,7 +79,7 @@ body {
   background-image: url("../media/images/illustration-about me-1-desktop@2x.png"), url("../media/images/illustration-about-me-2-desktop@2x.png");
   background-position: top right, bottom left;
   padding: 0 20%;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .aboutme_card {
