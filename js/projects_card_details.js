@@ -52,4 +52,5 @@ array1.forEach((btn) => {
 
 workCloseIcon.addEventListener('click', () => {
     cardDetailsContainer.classList.remove('show_work_project_details');
+    projectTechnologies.innerHTML = '';
 });
