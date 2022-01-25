@@ -19,7 +19,7 @@ const projectsDetail = [{
   linkToLiveVersion: 'https://souad988.github.io/e-com/',
   image: './media/images/projects/youtube.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  name: 'e-com',
+  name: 'ecom',
   technologies: ['Html', 'css', 'js', 'python', 'django'],
 },
 {
@@ -43,6 +43,6 @@ const projectsDetail = [{
   linkToLiveVersion: 'https://souad988.github.io/e-com/',
   image: './media/images/projects/youtube.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  name: 'e-com1',
+  name: 'ecom1',
   technologies: ['Html', 'css', 'js', 'python', 'django'],
 }];

@@ -514,3 +514,16 @@ span.close_icon:hover,
   flex-direction: row-reverse;
   overflow: hidden;
 }
+
+.work_project_details {
+  display: none;
+  position: fixed;
+  top: 5vh;
+  width: 90vw;
+  height: 95vh;
+}
+
+.show_work_project_details {
+  display: block;
+}
+
