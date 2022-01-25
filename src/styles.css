@@ -185,6 +185,7 @@
 }
 
 .card_info {
+  padding-bottom: 5%;
   background-color: white;
   border-radius: 4px;
   display: flex;
