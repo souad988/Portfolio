@@ -457,3 +457,32 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   border: #091e42 1px solid;
   border-radius: 50%;
 }
+
+.nav-links, .close_icon {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show-list {
+  display: flex;
+}
+
+.show-icon {
+  display: inline-block;
+}
+
+#humberger_menu_list {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.menu_list_container {
+  display: none;
+}
+
+.show-menu_list_container {
+  display: block;
+}
