@@ -425,7 +425,7 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 
 .title_form > h3 {
   text-align: center;
-  font-family: Inter Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -456,4 +456,61 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   background-color: #36b37e;
   border: #091e42 1px solid;
   border-radius: 50%;
+}
+
+.nav-links,
+.close_icon {
+  display: none;
+}
+
+.nav-link {
+  padding: 5vh 10vw;
+}
+
+.nav-link a {
+  font-family: "Inter", Arial, sans-serif;
+  text-decoration: none;
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+span.close_icon {
+  font-size: 52px;
+  font-weight: 900;
+  color: #67798e;
+  height: 50px;
+}
+
+span.close_icon:hover,
+.menu_icon:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.show-list {
+  display: flex;
+}
+
+.show-icon {
+  display: inline-block;
+}
+
+#humberger_menu_list {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.menu_list_container {
+  display: none;
+}
+
+.show-menu_list_container {
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
 }
