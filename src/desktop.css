@@ -114,3 +114,7 @@ form ul li {
   background-image: none;
   margin-top: 10vh;
 }
+
+.desktop_nav ul li a {
+  text-decoration: none;
+}
