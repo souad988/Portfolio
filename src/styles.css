@@ -425,7 +425,7 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 
 .title_form > h3 {
   text-align: center;
-  font-family: Inter Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -462,6 +462,32 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   display: none;
 }
 
+.nav-link {
+  padding: 5vh 10vw;
+}
+
+.nav-link a {
+  font-family: "Inter", Arial, sans-serif;
+  text-decoration: none;
+  color: #3A4A42;
+  font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+}
+
+span.close_icon {
+  font-size: 52px;
+  font-weight: 900;
+  color: #67798E;
+  height: 50px;
+}
+
+span.close_icon:hover, .menu_icon:hover {
+  cursor: pointer;
+}
+
+
+
 .hide {
   display: none;
 }
@@ -484,5 +510,7 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 }
 
 .show-menu_list_container {
-  display: block;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
 }
