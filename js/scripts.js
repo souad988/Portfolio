@@ -3,7 +3,6 @@ const navLinks = document.querySelector('.nav-links');
 const closeIcon = document.querySelector('.close_icon');
 const welcome = document.querySelector('.welcome');
 const container = document.querySelector('.menu_list_container');
-const mobileNavLinks = document.querySelectorAll('.nav-link');
 
 function closeMobileNav() {
   menuIcon.classList.remove('hide');
@@ -21,9 +20,6 @@ menuIcon.addEventListener('click', () => {
   container.classList.add('show-menu_list_container');
 });
 
-
-
-closeIcon.addEventListener('click',closeMobileNav);
+closeIcon.addEventListener('click', closeMobileNav);
 
 navLinks.addEventListener('click', closeMobileNav);
-

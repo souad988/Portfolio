@@ -458,7 +458,8 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   border-radius: 50%;
 }
 
-.nav-links, .close_icon {
+.nav-links,
+.close_icon {
   display: none;
 }
 
@@ -469,24 +470,23 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 .nav-link a {
   font-family: "Inter", Arial, sans-serif;
   text-decoration: none;
-  color: #3A4A42;
+  color: #3a4a42;
   font-weight: 600;
-font-size: 32px;
-line-height: 44px;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 span.close_icon {
   font-size: 52px;
   font-weight: 900;
-  color: #67798E;
+  color: #67798e;
   height: 50px;
 }
 
-span.close_icon:hover, .menu_icon:hover {
+span.close_icon:hover,
+.menu_icon:hover {
   cursor: pointer;
 }
-
-
 
 .hide {
   display: none;
