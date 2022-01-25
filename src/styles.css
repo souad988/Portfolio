@@ -476,7 +476,11 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   line-height: 44px;
 }
 
-span.close_icon {
+.work_detail_close_icon {
+  text-align: right;
+}
+
+span.close_icon, .work_detail_close_icon {
   font-size: 52px;
   font-weight: 900;
   color: #67798e;
@@ -484,7 +488,8 @@ span.close_icon {
 }
 
 span.close_icon:hover,
-.menu_icon:hover {
+.menu_icon:hover,
+.work_detail_close_icon:hover {
   cursor: pointer;
 }
 
@@ -518,12 +523,19 @@ span.close_icon:hover,
 .work_project_details {
   display: none;
   position: fixed;
-  top: 5vh;
-  width: 90vw;
-  height: 95vh;
+  top: 0vh;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #C1C7D0;
+    ;
 }
 
 .show_work_project_details {
   display: block;
 }
 
+.work_project_details_card {
+  border-radius: 10px;
+  margin: 2vh 2vw;
+  min-height: 95vh;
+}

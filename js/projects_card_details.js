@@ -7,7 +7,7 @@ array1.forEach(element=> {
 */
 const cardDetailsContainer = document.querySelector('#work_project_details');
 const array1 = ['youtube', 'portfolio', 'ecom', 'youtube1', 'portfolio1', 'ecom1'];
-
+const workCloseIcon= document.querySelector('.work_detail_close_icon');
 function createCardDetail(projectName) {
   console.log(projectName);
   const projectDetail = projectsDetail.filter((item) => item.name === projectName)[0];
@@ -15,6 +15,7 @@ function createCardDetail(projectName) {
   cardDetailsContainer.classList.add('show_work_project_details');
 
 }
+
 /* add event listner to each button */
 
 array1.forEach((btn) => {
@@ -22,4 +23,4 @@ array1.forEach((btn) => {
   btnB.addEventListener('click', () => createCardDetail(btn));
 });
 
-// youtube.addEventListener('click',()=> createCardDetail('youtube'));
+workCloseIcon.addEventListener('click', () => cardDetailsContainer.classList.remove('show_work_project_details'));
