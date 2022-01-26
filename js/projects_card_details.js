@@ -1,4 +1,52 @@
-/* eslint-disable space-before-blocks */
+const projectsDetail = [{
+  LinkToSource: 'https://github.com/souad988/youtube',
+  linkToLiveVersion: 'https://souad988.github.io/youtube/',
+  image: './media/images/projects/youtube.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  name: 'youtube',
+  technologies: ['Html', 'css'],
+},
+{
+  LinkToSource: 'https://github.com/souad988/portfolio',
+  linkToLiveVersion: 'https://souad988.github.io/portfolio/',
+  image: './media/images/projects/youtube.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  name: 'portfolio',
+  technologies: ['Html', 'css', 'javascript'],
+},
+{
+  LinkToSource: 'https://github.com/souad988/e-com',
+  linkToLiveVersion: 'https://souad988.github.io/e-com/',
+  image: './media/images/projects/youtube.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  name: 'ecom',
+  technologies: ['Html', 'css', 'js', 'python', 'django'],
+},
+{
+  LinkToSource: 'https://github.com/souad988/youtube',
+  linkToLiveVersion: 'https://souad988.github.io/youtube/',
+  image: './media/images/projects/youtube.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  name: 'youtube1',
+  technologies: ['Html', 'css'],
+},
+{
+  LinkToSource: 'https://github.com/souad988/portfolio',
+  linkToLiveVersion: 'https://souad988.github.io/portfolio/',
+  image: './media/images/projects/youtube.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  name: 'portfolio1',
+  technologies: ['Html', 'css', 'javascript'],
+},
+{
+  LinkToSource: 'https://github.com/souad988/e-com',
+  linkToLiveVersion: 'https://souad988.github.io/e-com/',
+  image: './media/images/projects/youtube.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  name: 'ecom1',
+  technologies: ['Html', 'css', 'js', 'python', 'django'],
+}];
+
 const cardDetailsContainer = document.querySelector('#work_project_details');
 const array1 = ['youtube', 'portfolio', 'ecom', 'youtube1', 'portfolio1', 'ecom1'];
 const workCloseIcon = document.querySelector('.work_detail_close_icon');
@@ -12,7 +60,7 @@ const projectLinkToLivemobile = document.querySelector('.btns_bottom_github');
 const projectLinkToSourcedesktop = document.querySelector('.btns_title_live');
 const projectLinkToLivedesktop = document.querySelector('.btns_title_github');
 
-function createListItems(technologies){
+function createListItems(technologies) {
   const teckList = [];
   technologies.forEach((item) => {
     const para = document.createElement('p');
@@ -27,7 +75,7 @@ function createListItems(technologies){
 }
 
 function fillCardDetail(projectDetail, img, title, description, technologies, livemobile,
-  githubmobile, livedesktop, githubdesktop){
+  githubmobile, livedesktop, githubdesktop) {
   img.src = projectDetail.image;
   title.innerHTML = projectDetail.name;
   description.innerHTML = projectDetail.description;

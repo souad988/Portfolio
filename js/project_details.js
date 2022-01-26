@@ -46,3 +46,5 @@ const projectsDetail = [{
   name: 'ecom1',
   technologies: ['Html', 'css', 'js', 'python', 'django'],
 }];
+
+export default projectsDetail;
