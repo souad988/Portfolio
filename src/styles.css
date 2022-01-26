@@ -604,3 +604,12 @@ span.close_icon:hover,
 .work_project_details_title_btns .work_project_details_btn_container {
   display: none;
 }
+
+.email_error_msg {
+  display: none;
+  color: red;
+}
+
+.show_email_error_msg {
+  display: flex;
+}
