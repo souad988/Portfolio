@@ -449,6 +449,7 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 .work_project_details_btn_container button {
   height: 37px;
   width: 40%;
+  font-size: 14px;
 }
 
 .title_form > form > ul > li > button {
