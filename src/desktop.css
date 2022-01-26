@@ -131,3 +131,22 @@ form ul li {
   font-weight:300;
   padding:0 10px;
 }
+
+.work_project_details_title_btns {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.btns_title {
+  width: 62vh;
+
+}
+
+.btns_bottom {
+  display: none;
+}
+
+.work_project_details_title_btns .work_project_details_btn_container{
+  display: flex!important;
+}

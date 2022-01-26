@@ -7,6 +7,8 @@ const projectImg = document.querySelector('.work_project_details_img');
 const projectTitle = document.querySelector('.work_project_details_title');
 const projectDescription = document.querySelector('.work_project_details_description');
 const projectTechnologies = document.querySelector('.work_project_details_technologies');
+const projectLinkToSource = document.querySelector('.work_project_details_img');
+const projectLinkToLive = document.querySelector('.work_project_details_img');
 
 function createListItems(technologies){
   let teckList = [];  

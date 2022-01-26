@@ -537,8 +537,7 @@ span.close_icon:hover,
   top: 0vh;
     width: 100vw;
     height: 100vh;
-    background-color: #C1C7D0;
-    ;
+    background-color: #e3e5e9;
 }
 
 .show_work_project_details {
@@ -562,17 +561,17 @@ span.close_icon:hover,
   border-radius: 10px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 600px) {
   .work_project_details_img {
-    min-height: 60vh;
+    height: 40vh;
   }
   .work_project_details_card {
     justify-content: space-evenly;
   }
 }
-@media (max-width: 992px){
+@media (max-width: 600px){
   .work_project_details_img {
-    min-height: 40vh;
+    height: 33vh;
   }
 }
 
@@ -597,4 +596,8 @@ span.close_icon:hover,
 
 .work_project_details_technologies .language {
   padding: 3px 12px ;
+}
+
+.work_project_details_title_btns .work_project_details_btn_container{
+  display: none;
 }
