@@ -59,10 +59,9 @@ const projectLinkToSourcemobile = document.querySelector('.buttons_bottom_github
 const projectLinkToLivemobile = document.querySelector('.buttons_bottom_live');
 const projectLinkToSourcedesktop = document.querySelector('.btns_title_github');
 const projectLinkToLivedesktop = document.querySelector('.btns_title_live');
-/*projectLinkToLivemobile.addEventListener('click', () => {
+/* projectLinkToLivemobile.addEventListener('click', () => {
   console.log("hello");
-});*/
-
+}); */
 
 function createListItems(technologies) {
   const teckList = [];
