@@ -128,8 +128,8 @@ form ul li {
   color: rgb(129, 129, 129);
   background-color: #d8d9da;
   border-radius: 5px;
-  font-weight:300;
-  padding:0 10px;
+  font-weight: 300;
+  padding: 0 10px;
 }
 
 .work_project_details_title_btns {
@@ -140,13 +140,12 @@ form ul li {
 
 .btns_title {
   width: 62vh;
-
 }
 
 .btns_bottom {
   display: none;
 }
 
-.work_project_details_title_btns .work_project_details_btn_container{
-  display: flex!important;
+.work_project_details_title_btns .work_project_details_btn_container {
+  display: flex !important;
 }
