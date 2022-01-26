@@ -553,7 +553,7 @@ span.close_icon:hover,
 .work_project_details_card {
   border-radius: 10px;
   margin: 2vh 4vw;
-  min-height: 92%;
+  height: 92%;
   background-color: white;
   padding: 2%;
   display: flex;
@@ -564,7 +564,8 @@ span.close_icon:hover,
 
 .work_project_details_img {
   width: 100%;
-  border-radius: 10px;
+  border: 1px solid #DFE1E6;
+  border-radius: 8px;
 }
 
 @media (min-width: 600px) {
@@ -573,7 +574,8 @@ span.close_icon:hover,
   }
 
   .work_project_details_card {
-    justify-content: space-evenly;
+    margin: 10vh 17vw;
+    height: 75%;
   }
 }
 

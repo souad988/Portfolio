@@ -121,16 +121,18 @@ form ul li {
 }
 
 .work_detail_close_icon {
-  font-size: 37px;
+  font-size: 26px;
   position: fixed;
   top: 3%;
-  right: 6%;
+  right: 17%;
   color: rgb(129, 129, 129);
   background-color: #d8d9da;
   border-radius: 5px;
-  font-weight: 300;
-  padding: 0 10px;
+  font-weight: 100;
+  padding: 0 7px;
 }
+
+
 
 .work_project_details_title_btns {
   display: flex;
@@ -139,13 +141,34 @@ form ul li {
 }
 
 .btns_title {
-  width: 62vh;
+  width: 60vh;
 }
 
 .btns_bottom {
   display: none;
 }
 
+.btns_title {
+  align-self: end;
+}
+
 .work_project_details_title_btns .work_project_details_btn_container {
   display: flex !important;
+  justify-content: space-between;
+}
+
+.work_project_details_description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.work_project_details_btn_container button {
+  width: 158px;
+}
+
+.work_project_details_technologies {
+  margin: 0%;
 }

@@ -13,5 +13,8 @@ formButton.addEventListener('click', (e) =>{
    console.log(isEmailLowerCase(mail.value));
    if(isEmailLowerCase(mail.value)){
     errorMsg.classList.add('show_email_error_msg');
-   }else {errorMsg.classList.remove('show_email_error_msg');}
+   }else {
+       errorMsg.classList.remove('show_email_error_msg');
+       form.submit();
+    }
 });
