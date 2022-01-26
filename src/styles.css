@@ -564,14 +564,24 @@ span.close_icon:hover,
 }
 
 .work_project_details_btn_container {
-  align-self: center;
+  align-self:stretch;
+  display: flex;
+  justify-content:space-evenly;
 }
 
 .work_project_details_btn_container button {
-  min-height: 37px;
-  margin-top: 0%;
+  height: 37px;
+  width: 40%;
 }
 
 .work_project_details_technologies {
   align-self: flex-start;
+}
+
+.work_project_details_description {
+  color: #344563;
+}
+
+.work_project_details_technologies .language {
+  padding: 3px 12px ;
 }
