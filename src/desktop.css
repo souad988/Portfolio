@@ -119,3 +119,15 @@ form ul li {
   text-decoration: none;
   color: #172b4d;
 }
+
+.work_detail_close_icon {
+  font-size: 37px;
+  position: fixed;
+  top: 3%;
+  right: 6%;
+  color: rgb(129, 129, 129);
+  background-color: #d8d9da;
+  border-radius: 5px;
+  font-weight:300;
+  padding:0 10px;
+}
