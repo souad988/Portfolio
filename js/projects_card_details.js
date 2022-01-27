@@ -78,7 +78,7 @@ function createListItems(technologies) {
 }
 
 function fillCardDetail(projectDetail, img, title, description, technologies, livemobile,
-  githubmobile, livedesktop, githubdesktop) {  
+  githubmobile, livedesktop, githubdesktop) {
   img.src = projectDetail.image;
   title.innerHTML = projectDetail.name;
   description.innerHTML = projectDetail.description;
