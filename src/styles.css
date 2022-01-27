@@ -446,6 +446,13 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   flex-direction: column;
 }
 
+.work_project_details_btn_container button {
+  height: 37px;
+  width: 45%;
+  font-size: 14px;
+  margin: 0 2%;
+}
+
 .title_form > form > ul > li > button {
   padding: 12px;
   align-self: center;
@@ -467,13 +474,29 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
   padding: 5vh 10vw;
 }
 
-.nav-link a {
+.nav-link a,
+.work_project_details_title {
   font-family: "Inter", Arial, sans-serif;
   text-decoration: none;
   color: #3a4a42;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+}
+
+.work_project_details_title {
+  color: #172b4d;
+  margin: 0;
+  justify-self: start;
+}
+
+.work_detail_close_icon {
+  font-size: 22px;
+  position: fixed;
+  top: 5%;
+  right: 10%;
+  color: rgb(139, 139, 139);
+  font-weight: 600;
 }
 
 span.close_icon {
@@ -484,7 +507,8 @@ span.close_icon {
 }
 
 span.close_icon:hover,
-.menu_icon:hover {
+.menu_icon:hover,
+.work_detail_close_icon:hover {
   cursor: pointer;
 }
 
@@ -513,4 +537,89 @@ span.close_icon:hover,
   display: flex;
   flex-direction: row-reverse;
   overflow: hidden;
+}
+
+.work_project_details {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e3e5e9;
+}
+
+.show_work_project_details {
+  display: block;
+}
+
+.work_project_details_card {
+  border-radius: 10px;
+  margin: 2vh 4vw;
+  height: 92%;
+  background-color: white;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.work_project_details_img {
+  width: 100%;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .work_project_details_img {
+    height: 40vh;
+  }
+
+  .work_project_details_card {
+    margin: 10vh 17vw;
+    height: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  .work_project_details_img {
+    height: 33vh;
+  }
+}
+
+.work_project_details_btn_container {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  margin: 1vh 0;
+}
+
+.work_project_details_technologies {
+  align-self: flex-start;
+  margin: 0;
+}
+
+.work_project_details_description {
+  color: #344563;
+  line-height: 3.5vh;
+  font-size: initial;
+  margin: 0;
+}
+
+.work_project_details_technologies .language {
+  padding: 3px 12px;
+}
+
+.work_project_details_title_btns .work_project_details_btn_container {
+  display: none;
+}
+
+.email_error_msg {
+  display: none;
+  color: red;
+}
+
+.show_email_error_msg {
+  display: flex;
 }

@@ -105,10 +105,32 @@
       <div class="works_section_title">
         <h3 class="works_headline">My Recent Works</h3>
         <img
-          src="./media/images/indicator.png"
+          src="./media/images/Indicator.png"
           alt="indicator"
           class="works_headline_indicator"
         />
+      </div>
+      <!-- CARD WORK PROJECT DETAILS -->
+      <div id="work_project_details" class="work_project_details">
+        
+        <div class="work_project_details_card">
+          <span class="work_detail_close_icon">&times; </span>
+          <img class="work_project_details_img" src="./media/images/projects/youtube.PNG" alt="project screenshot"/>
+            <div class="work_project_details_title_btns"><h5 class="work_project_details_title"></h5>
+              <div class="work_project_details_btn_container btns_title">
+                <button type="button" class="buttons btns_title_live">See Live <img src="./media/Icons/seeliveicon.svg" alt="see live icon"/></button>
+                <button type="button" class="buttons btns_title_github">See Source <img src="./media/Icons/Icon-GitHub.svg" alt="see github icon"/></button>
+              </div>
+            </div>
+            <ul class="card_languages work_project_details_technologies">
+             
+            </ul>
+            <p class="work_project_details_description"></p>
+            <div class="work_project_details_btn_container btns_bottom">
+              <button type="button"  class="buttons buttons_bottom_live">See Live <img src="./media/Icons/seeliveicon.svg" alt="see live icon"/></button>
+              <button type="button" class="buttons buttons_bottom_github">See Source <img src="./media/Icons/Icon-GitHub.svg" alt="see github icon"/></button>
+            </div>
+        </div>
       </div>
       <div class="cards works_cards margin_bloc">
         <div class="card">
@@ -121,7 +143,7 @@
               <li class="language"><p>JavaScript</p></li>
               <li class="language"><p>html</p></li>
             </ul>
-            <button type="button" class="buttons">See Project</button>
+            <button type="button" class="buttons" id="youtube">See Project</button>
           </div>
         </div>
         <div class="card">
@@ -134,7 +156,7 @@
               <li class="language"><p>JavaScript</p></li>
               <li class="language"><p>html</p></li>
             </ul>
-            <button type="button" class="buttons">See Project</button>
+            <button type="button" class="buttons" id="portfolio">See Project</button>
           </div>
         </div>
         <div class="card">
@@ -147,7 +169,7 @@
               <li class="language"><p>JavaScript</p></li>
               <li class="language"><p>html</p></li>
             </ul>
-            <button type="button" class="buttons">See Project</button>
+            <button type="button" class="buttons" id="ecom">See Project</button>
           </div>
         </div>
         <div class="card">
@@ -160,7 +182,7 @@
               <li class="language"><p>JavaScript</p></li>
               <li class="language"><p>html</p></li>
             </ul>
-            <button type="button" class="buttons">See Project</button>
+            <button type="button" class="buttons" id="youtube1">See Project</button>
           </div>
         </div>
         <div class="card">
@@ -173,7 +195,7 @@
               <li class="language"><p>JavaScript</p></li>
               <li class="language"><p>html</p></li>
             </ul>
-            <button type="button" class="buttons">See Project</button>
+            <button type="button" class="buttons" id="portfolio1">See Project</button>
           </div>
         </div>
         <div class="card">
@@ -186,7 +208,7 @@
               <li class="language"><p>JavaScript</p></li>
               <li class="language"><p>html</p></li>
             </ul>
-            <button type="button" class="buttons">See Project</button>
+            <button type="button" class="buttons" id="ecom1">See Project</button>
           </div>
         </div>
       </div>
@@ -303,6 +325,7 @@
               <button class="buttons getintouch" type="submit">
                 Get in touch
               </button>
+              <p class="email_error_msg ">the email shoud be in lowerCase</p>
             </li>
           </ul>
         </form>
@@ -335,5 +358,8 @@
       <span class="email">souadelmansouri2018@gmail.com</span>
     </section>
     <script src="./js/scripts.js"></script>
+   <!-- <script src="./js/project_details.js"></script>-->
+    <script src="./js/projects_card_details.js"></script>
+    <script src="./js/form_validation.js"></script>
   </body>
 </html>
