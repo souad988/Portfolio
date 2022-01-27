@@ -14,6 +14,6 @@ formButton.addEventListener('click', (e) => {
     errorMsg.classList.add('show_email_error_msg');
   } else {
     errorMsg.classList.remove('show_email_error_msg');
-    //put here 
+    window.location.href = 'https://formspree.io/f/xbjwdjrr';
   }
 });
