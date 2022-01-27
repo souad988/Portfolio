@@ -41,7 +41,7 @@ const projectsDetail = [{
 {
   LinkToSource: 'https://github.com/souad988/e-come',
   linkToLiveVersion: 'https://souad988.github.io/youtube/',
-  image: '../media/images/projects/e-come.png',
+  image: 'media/images/projects/e-come.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   name: 'ecom1',
   technologies: ['Html', 'css', 'js', 'python', 'django'],
