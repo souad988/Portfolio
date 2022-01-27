@@ -448,8 +448,9 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 
 .work_project_details_btn_container button {
   height: 37px;
-  width: 40%;
+  width: 45%;
   font-size: 14px;
+  margin: 0 2%;
 }
 
 .title_form > form > ul > li > button {
@@ -567,6 +568,7 @@ span.close_icon:hover,
   width: 100%;
   border: 1px solid #dfe1e6;
   border-radius: 8px;
+  margin: 0;
 }
 
 @media (min-width: 600px) {
@@ -589,15 +591,20 @@ span.close_icon:hover,
 .work_project_details_btn_container {
   align-self: stretch;
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  margin: 1vh 0;
 }
 
 .work_project_details_technologies {
   align-self: flex-start;
+  margin: 0;
 }
 
 .work_project_details_description {
   color: #344563;
+  line-height: 3.5vh;
+  font-size: initial;
+  margin: 0;
 }
 
 .work_project_details_technologies .language {

@@ -148,6 +148,7 @@ form ul li {
 }
 
 .work_project_details_title_btns .work_project_details_btn_container {
+  justify-content: end;
   display: flex !important;
 }
 
@@ -157,6 +158,7 @@ form ul li {
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
+  margin: 0%;
 }
 
 .work_project_details_btn_container button {
