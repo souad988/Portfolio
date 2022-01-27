@@ -1,7 +1,7 @@
 const projectsDetail = [{
   LinkToSource: 'https://github.com/souad988/youtube',
   linkToLiveVersion: 'https://souad988.github.io/youtube/',
-  image: 'media/images/projects/youtube.png',
+  image: './media/images/projects/youtube.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   name: 'youtube',
   technologies: ['Html', 'css'],
@@ -9,7 +9,7 @@ const projectsDetail = [{
 {
   LinkToSource: 'https://github.com/souad988/Portfolio',
   linkToLiveVersion: 'https://souad988.github.io/Portfolio/',
-  image: 'media/images/projects/portfolio.png',
+  image: './media/images/projects/portfolio.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   name: 'portfolio',
   technologies: ['Html', 'css', 'javascript'],
@@ -17,7 +17,7 @@ const projectsDetail = [{
 {
   LinkToSource: 'https://github.com/souad988/e-come',
   linkToLiveVersion: 'https://souad988.github.io/youtube/',
-  image: 'media/images/projects/e-come.png',
+  image: './media/images/projects/e-come.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   name: 'ecom',
   technologies: ['Html', 'css', 'js', 'python', 'django'],
@@ -25,7 +25,7 @@ const projectsDetail = [{
 {
   LinkToSource: 'https://github.com/souad988/youtube',
   linkToLiveVersion: 'https://souad988.github.io/youtube/',
-  image: 'media/images/projects/youtube.png',
+  image: './media/images/projects/youtube.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   name: 'youtube1',
   technologies: ['Html', 'css'],
@@ -33,7 +33,7 @@ const projectsDetail = [{
 {
   LinkToSource: 'https://github.com/souad988/Portfolio',
   linkToLiveVersion: 'https://souad988.github.io/Portfolio/',
-  image: 'media/images/projects/portfolio.png',
+  image: './media/images/projects/portfolio.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   name: 'Keeping track of hundreds of components',
   technologies: ['Html', 'css', 'javascript'],
@@ -41,7 +41,7 @@ const projectsDetail = [{
 {
   LinkToSource: 'https://github.com/souad988/e-come',
   linkToLiveVersion: 'https://souad988.github.io/youtube/',
-  image: 'media/images/projects/e-come.png',
+  image: './media/images/projects/e-come.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   name: 'ecom1',
   technologies: ['Html', 'css', 'js', 'python', 'django'],
