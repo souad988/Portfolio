@@ -139,7 +139,7 @@ form ul li {
 }
 
 .btns_title {
-  width: 60vh;
+  width: 56vh;
   align-self: end;
 }
 
@@ -149,19 +149,19 @@ form ul li {
 
 .work_project_details_title_btns .work_project_details_btn_container {
   display: flex !important;
-  justify-content: space-between;
 }
 
 .work_project_details_description {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .work_project_details_btn_container button {
-  width: 158px;
+  width: 150px;
+  margin-left: 6px;
 }
 
 .work_project_details_technologies {

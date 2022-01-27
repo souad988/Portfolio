@@ -589,7 +589,7 @@ span.close_icon:hover,
 .work_project_details_btn_container {
   align-self: stretch;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
 }
 
 .work_project_details_technologies {
