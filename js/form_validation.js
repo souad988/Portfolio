@@ -4,7 +4,7 @@ const formButton = document.querySelector('.getintouch');
 
 function isEmailLowerCase(email) {
   const lowerCasedEmail = email.toLowerCase();
-  return email !== lowerCasedEmail
+  return email !== lowerCasedEmai
 }
 
 formButton.addEventListener('click', (e) => {
