@@ -1,7 +1,7 @@
 # Portfolio
-#### this is a personal portfolio to highlight my work and my skills
-
-
+ this project is a portfolio web app that contains different sections to hilight my skills and to dispaly my contact info, the first section contains my bio followed by links to all my socialmedia accounts, right after it comes a liste of cards in witch we can see projects i built with screenshots, technologies used and links to github repos and live server pages. this project is built using html/css and js 
+ 
+ 
 
 ![portfolio1](https://user-images.githubusercontent.com/59707859/148624229-13ab99dd-51c4-4c37-9d99-531a455227bf.PNG)
 ![portfolio5](https://user-images.githubusercontent.com/59707859/148624243-27778486-4977-45e9-bc6b-9c4aea78b6f2.PNG)
