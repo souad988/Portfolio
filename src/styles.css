@@ -84,9 +84,9 @@
 
 .headline-1:hover,
 .headline-2:hover {
-  font-size: 50px;
-  transform: scale(1.1);
-  transition: 2s;
+  font-size: 38px;
+  transform: scale(0.9);
+  transition: 1s;
 }
 
 .social_media {

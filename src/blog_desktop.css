@@ -1,0 +1,14 @@
+.desktop_header {
+  display: flex;
+}
+
+.header {
+  display: none;
+}
+
+.about {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
