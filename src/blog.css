@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
   font-family: 'Marcellus', sans-serif;
+  color: #172b4d;
 }
 
 header {
@@ -17,6 +18,11 @@ footer {
   align-items: center;
 }
 
+.about_info_my_name {
+  color: #36b37e;
+  font-weight: 600;
+}
+
 header,
 footer {
   background-color: #36b37e;
@@ -25,7 +31,8 @@ footer {
 
 .headline {
   text-align: center;
-  margin: 5vh auto;
+  color: #172b4d;
+  font-size: xxx-large;
 }
 
 .header {
@@ -66,12 +73,17 @@ footer li a {
   display: block;
 }
 
+.about_info_intro {
+  font-size: small;
+}
+
 .about > div {
   margin: 30px;
   padding: 30px;
   border: 1px solid #e9e9e9;
   letter-spacing: 0.01rem;
   line-height: 1.5;
+  font-size: large;
 }
 
 footer li a img {
@@ -80,8 +92,15 @@ footer li a img {
 
 .about_info > img {
   border-radius: 100%;
-  width: 200px;
+  width: 180px;
   height: 200px;
+}
+
+.headline_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5vh auto;
 }
 
 .about_info_title {
