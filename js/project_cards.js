@@ -1,57 +1,59 @@
-const projectsData = [{
-  id: 1,
-  LinkToSource: 'https://github.com/souad988/covid19-tracker',
-  linkToLiveVersion: 'https://deploy-preview-5--statistics-covid19-tracker.netlify.app/',
-  image: './media/images/projects/covid19.png',
-  description: 'react web application that retreives covid19 data from distant api and display list of countries with total confirmed cases and the country\'s map, and the user can check detailed regional data of each country.',
-  name: 'Covid Tracker',
-  technologies: ['React.js', 'Redux', 'Apis'],
-},
-{
-  id: 2,
-  LinkToSource: 'https://github.com/khanh-devos/capstone-ebike-reservation-frontend',
-  linkToLiveVersion: 'https://khanh-devos.github.io/capstone-ebike-reservation-frontend/',
-  image: './media/images/projects/ebikes.png',
-  description: 'a web app to book a test-ride service',
-  name: 'E-bike Reservation',
-  technologies: ['React', 'Rails', 'Redux', 'Postgresql'],
-},
-{
-  id: 3,
-  LinkToSource: 'https://github.com/souad988/document_analyse',
-  linkToLiveVersion: 'https://github.com/souad988/document_analyse',
-  image: './media/images/projects/document_analyze.png',
-  description: 'Document analyze is an open-source, AI-powered document analyzer tool for company financial data-related tasks.',
-  name: 'Document analyze',
-  technologies: ['React', 'Django', 'Docker', 'HuggingFace', 'Nlp'],
-},
-{
-  id: 4,
-  LinkToSource: 'https://github.com/unstructuredstudio/zubhub',
-  linkToLiveVersion: 'https://zubhub.unstructured.studio/',
-  image: './media/images/projects/zubhub.png',
-  description: 'ZubHub is an open-source, documentation & collaboration tool for activity-based learning. It is available for custom use for schools, libraries, hackerspaces, educational organizations, etc. Imagine your own online community built around your educational activities!',
-  name: 'Zubhub',
-  technologies: ['React', 'Django', 'Docker', 'Posgresql'],
-},
-{
-  id: 5,
-  LinkToSource: 'https://github.com/souad988/budget_tracker_app',
-  linkToLiveVersion: 'https://www.loom.com/share/8903e0f7ed9e4978bed33422e3c0e0ae?sid=aacbdffc-e4e8-4ba4-9cdf-42c590317f27',
-  image: './media/images/projects/ebike_home.png',
-  description: 'Budget Tracker is a web application where users can keep track of their expences in groups of categories and store their transactions .',
-  name: 'Budget Tracker',
-  technologies: ['Rails', 'Postgresql', 'css', 'javascript'],
-},
-{
-  id: 6,
-  LinkToSource: 'https://github.com/souad988/review-requests-tracker',
-  linkToLiveVersion: 'https://github.com/souad988/review-requests-tracker',
-  image: './media/images/projects/review_requests_tracker.png',
-  description: 'Review Request Tracker "Review Request Tracker" is a chrome extension that helps microverse code reviewers gain 99% of time they spend to catch new review requests instead of spending time refreshing the tab to see if new reviews are available reviewer can open other tabs ad even other windows work on their side project while the extension keeps checking and once a new review is found the microverse dashboard tab open up on top of every thing and the reviewer claim the review , the extension also plays an audio track with duration of the review if the user is a bit away they can listen to the notification 🏃‍♀️🏃‍♂️ and can stil claim the review.',
-  name: 'Review Request Tracker',
-  technologies: ['React.js', 'css', 'Webpack'],
-}];
+const projectsData = [
+  {
+    id: 1,
+    LinkToSource: 'https://github.com/souad988/covid19-tracker',
+    linkToLiveVersion: 'https://deploy-preview-5--statistics-covid19-tracker.netlify.app/',
+    image: './media/images/projects/covid19.png',
+    description: 'A React web application that retrieves COVID-19 data from a distant API and displays a list of countries with total confirmed cases and the country\'s map. Users can also check detailed regional data for each country.',
+    name: 'Covid Tracker',
+    technologies: ['React.js', 'Redux', 'APIs'],
+  },
+  {
+    id: 2,
+    LinkToSource: 'https://github.com/khanh-devos/capstone-ebike-reservation-frontend',
+    linkToLiveVersion: 'https://khanh-devos.github.io/capstone-ebike-reservation-frontend/',
+    image: './media/images/projects/ebikes.png',
+    description: 'A web app for booking a test-ride service.',
+    name: 'E-bike Reservation',
+    technologies: ['React', 'Rails', 'Redux', 'PostgreSQL'],
+  },
+  {
+    id: 3,
+    LinkToSource: 'https://github.com/souad988/document_analyse',
+    linkToLiveVersion: 'https://github.com/souad988/document_analyse',
+    image: './media/images/projects/document_analyze.png',
+    description: 'Document Analyze is an open-source, AI-powered document analyzer tool for company financial data-related tasks.',
+    name: 'Document Analyze',
+    technologies: ['React', 'Django', 'Docker', 'HuggingFace', 'NLP'],
+  },
+  {
+    id: 4,
+    LinkToSource: 'https://github.com/unstructuredstudio/zubhub',
+    linkToLiveVersion: 'https://zubhub.unstructured.studio/',
+    image: './media/images/projects/zubhub.png',
+    description: 'ZubHub is an open-source documentation and collaboration tool for activity-based learning. It is available for custom use in schools, libraries, hackerspaces, educational organizations, etc. Imagine your own online community built around your educational activities!',
+    name: 'Zubhub',
+    technologies: ['React', 'Django', 'Docker', 'PostgreSQL'],
+  },
+  {
+    id: 5,
+    LinkToSource: 'https://github.com/souad988/budget_tracker_app',
+    linkToLiveVersion: 'https://www.loom.com/share/8903e0f7ed9e4978bed33422e3c0e0ae?sid=aacbdffc-e4e8-4ba4-9cdf-42c590317f27',
+    image: './media/images/projects/ebike_home.png',
+    description: 'Budget Tracker is a web application where users can keep track of their expenses in groups of categories and store their transactions.',
+    name: 'Budget Tracker',
+    technologies: ['Rails', 'PostgreSQL', 'CSS', 'JavaScript'],
+  },
+  {
+    id: 6,
+    LinkToSource: 'https://github.com/souad988/review-requests-tracker',
+    linkToLiveVersion: 'https://github.com/souad988/review-requests-tracker',
+    image: './media/images/projects/review_requests_tracker.png',
+    description: 'Review Request Tracker is a Chrome extension that helps Microverse code reviewers save 99% of the time spent catching new review requests. Instead of refreshing the tab, the extension checks continuously. When a new review is found, the Microverse dashboard tab opens on top. The extension also plays an audio track with the duration of the review. If the user is away, they can listen to the notification and still claim the review.',
+    name: 'Review Request Tracker',
+    technologies: ['React.js', 'CSS', 'Webpack'],
+  },
+];
 
 function createCard(name, technologies, id, imageUrl) {
   // Create card div
@@ -140,10 +142,10 @@ function fillCardDetail(projectDetail, img, title, description, technologies, li
   title.innerHTML = projectDetail.name;
   description.innerHTML = projectDetail.description;
 
-  livemobile.onclick = () => { window.location.href = projectDetail.linkToLiveVersion; };
-  livedesktop.onclick = () => { window.location.href = projectDetail.linkToLiveVersion; };
-  githubmobile.onclick = () => { window.location.href = projectDetail.LinkToSource; };
-  githubdesktop.onclick = () => { window.location.href = projectDetail.LinkToSource; };
+  livemobile.onclick = () => { window.open(projectDetail.linkToLiveVersion, '_blank'); };
+  livedesktop.onclick = () => { window.open(projectDetail.linkToLiveVersion, '_blank'); };
+  githubmobile.onclick = () => { window.open(projectDetail.LinkToSource, '_blank'); };
+  githubdesktop.onclick = () => { window.open(projectDetail.LinkToSource, '_blank'); };
 
   let teckList1 = [];
 
