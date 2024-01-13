@@ -30,10 +30,6 @@ body {
   font-weight: bold;
 }
 
-.desktop_nav {
-  width: 23%;
-}
-
 .desktop_nav > ul {
   display: flex;
   flex-direction: row;
@@ -117,7 +113,8 @@ form ul li {
 
 .desktop_nav ul li a {
   text-decoration: none;
-  color: #172b4d;
+  margin: 0 30px;
+  color: white;
 }
 
 .work_detail_close_icon {
