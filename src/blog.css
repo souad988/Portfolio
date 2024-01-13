@@ -37,17 +37,14 @@ footer {
 
 .header {
   display: flex;
-  justify-content: space-between;
-}
-
-.desktop_header {
-  display: none;
-  height: 100%;
+  align-items: center;
 }
 
 .desktop_header ul {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer li a {
@@ -90,6 +87,13 @@ footer li a img {
   color: white;
 }
 
+.about_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .about_info > img {
   border-radius: 100%;
   width: 180px;
@@ -122,12 +126,8 @@ footer .links {
     justify-content: center;
   }
 
-  .header {
-    display: none;
-  }
-
   .about {
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: 4fr 1fr;
