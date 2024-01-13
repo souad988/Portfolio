@@ -45,13 +45,13 @@ const projectsData = [
     technologies: ['Rails', 'PostgreSQL', 'CSS', 'JavaScript'],
   },
   {
-    id: 6,
-    LinkToSource: 'https://github.com/souad988/review-requests-tracker',
-    linkToLiveVersion: 'https://github.com/souad988/review-requests-tracker',
-    image: './media/images/projects/review_requests_tracker.png',
-    description: 'Review Request Tracker is a Chrome extension that helps Microverse code reviewers save 99% of the time spent catching new review requests. Instead of refreshing the tab, the extension checks continuously. When a new review is found, the Microverse dashboard tab opens on top. The extension also plays an audio track with the duration of the review. If the user is away, they can listen to the notification and still claim the review.',
-    name: 'Review Request Tracker',
-    technologies: ['React.js', 'CSS', 'Webpack'],
+    id: 5,
+    LinkToSource: 'https://github.com/souad988/math-magician',
+    linkToLiveVersion: 'https://souad-math-magicians.netlify.app/',
+    image: './media/images/projects/math_magician.png',
+    description: 'Math Magician is a Javascript web App that simulates math calculators, built using React js framework .',
+    name: 'Math Magician',
+    technologies: ['Apis', 'React.js', 'CSS', 'JavaScript'],
   },
 ];
 
