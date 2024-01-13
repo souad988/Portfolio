@@ -1,20 +1,15 @@
 # Portfolio
  this project is a portfolio web app that contains different sections to hilight my skills and to dispaly my contact info, the first section contains my bio followed by links to all my socialmedia accounts, right after it comes a liste of cards in witch we can see projects i built with screenshots, technologies used and links to github repos and live server pages. this project is built using html/css and js 
  
- 
+ ![Screenshot from 2024-01-13 14-54-17](https://github.com/souad988/Portfolio/assets/59707859/dc920aa8-73b8-4966-a10d-1f0f319479dc)
+![Screenshot from 2024-01-13 14-55-13](https://github.com/souad988/Portfolio/assets/59707859/22ef96d4-97de-44f5-b482-5f56bc3d3886)
 
-![portfolio1](https://user-images.githubusercontent.com/59707859/148624229-13ab99dd-51c4-4c37-9d99-531a455227bf.PNG)
-![portfolio5](https://user-images.githubusercontent.com/59707859/148624243-27778486-4977-45e9-bc6b-9c4aea78b6f2.PNG)
-![portfolio6](https://user-images.githubusercontent.com/59707859/148624244-5430c3cd-9bd8-432d-aae6-dd759d869df5.PNG)
-![portfolio2](https://user-images.githubusercontent.com/59707859/148624245-62581054-c7e3-4411-85ab-844ee92616fc.PNG)
-![portfolio3](https://user-images.githubusercontent.com/59707859/148624246-27992101-78ed-4e40-980c-83918a20a248.PNG)
-![portfolio4](https://user-images.githubusercontent.com/59707859/148624248-a551fb6b-8806-41bb-901c-cfc5d7fb394e.PNG)
 
 
 ###### this project is a one page website containing 3 sections the first one represent the home page it contains the headlines and the social media references,the next one displays my work(projects information) in liste of cards, and last one is a highlighter to my to my potential (skills, frameworks, coding languages)
 
 ## Built With
-###### HTML/CSS
+- HTML/CSS/javascript
 
 ## Live Demo
 https://souad988.github.io/Portfolio/
