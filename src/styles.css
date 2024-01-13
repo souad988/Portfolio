@@ -103,8 +103,7 @@
 }
 
 .links li {
-  width: 15%;
-  height: 15%;
+  padding: 6px;
 }
 
 .scrolldown {
@@ -169,6 +168,8 @@
 
 .card_img {
   min-height: 300px;
+  background-size: cover;
+  background-position: center;
 }
 
 .card,
@@ -459,6 +460,7 @@ form > ul > li > textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+
 }
 
 .links > li:hover {
+  align-items: center;
   transition: 0.5s;
   background-color: #36b37e;
   border: #091e42 1px solid;

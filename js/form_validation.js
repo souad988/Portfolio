@@ -9,7 +9,6 @@ function isEmailLowerCase(email) {
 
 formButton.addEventListener('click', (e) => {
   e.preventDefault();
-  console.log(isEmailLowerCase(mail.value));
   if (isEmailLowerCase(mail.value)) {
     errorMsg.classList.add('show_email_error_msg');
   } else {
