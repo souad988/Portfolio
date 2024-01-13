@@ -119,9 +119,9 @@ form ul li {
 
 .work_detail_close_icon {
   font-size: 26px;
-  position: fixed;
-  top: 3%;
-  right: 17%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
   color: rgb(129, 129, 129);
   background-color: #d8d9da;
   border-radius: 5px;

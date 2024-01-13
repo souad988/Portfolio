@@ -570,6 +570,7 @@ span.close_icon:hover,
 }
 
 .work_project_details_card {
+  position: relative;
   border-radius: 10px;
   margin: 2vh 4vw;
   height: 92%;
