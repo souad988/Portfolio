@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (newTab) {
           newTab.focus();
         }
-      }, 100);
+      }, 10);
     });
   });
 });
