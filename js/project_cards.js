@@ -142,10 +142,10 @@ function fillCardDetail(projectDetail, img, title, description, technologies, li
   title.innerHTML = projectDetail.name;
   description.innerHTML = projectDetail.description;
 
-  livemobile.onclick = () => { window.open(projectDetail.linkToLiveVersion,'_blank') };
-  livedesktop.onclick = () => {  window.open(projectDetail.linkToLiveVersion,'_blank') };
-  githubmobile.onclick = () => {  window.open(projectDetail.LinkToSource,'_blank') };
-  githubdesktop.onclick = () => { window.open(projectDetail.LinkToSource,'_blank') };
+  livemobile.onclick = () => { window.open(projectDetail.linkToLiveVersion, '_blank'); };
+  livedesktop.onclick = () => { window.open(projectDetail.linkToLiveVersion, '_blank'); };
+  githubmobile.onclick = () => { window.open(projectDetail.LinkToSource, '_blank'); };
+  githubdesktop.onclick = () => { window.open(projectDetail.LinkToSource, '_blank'); };
 
   let teckList1 = [];
 
