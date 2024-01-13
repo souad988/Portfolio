@@ -23,3 +23,18 @@ menuIcon.addEventListener('click', () => {
 closeIcon.addEventListener('click', closeMobileNav);
 
 navLinks.addEventListener('click', closeMobileNav);
+
+document.addEventListener('DOMContentLoaded', () => {
+  const links = document.querySelectorAll('external_link');
+  links.forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const newTab = window.open(this.href, '_blank');
+      setTimeout(() => {
+        if (newTab) {
+          newTab.focus();
+        }
+      }, 100);
+    });
+  });
+});

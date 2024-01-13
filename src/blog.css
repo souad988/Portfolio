@@ -5,6 +5,10 @@
   color: #172b4d;
 }
 
+html {
+  scroll-behavior: smooth
+}
+
 header {
   height: 10vh;
   justify-content: center;
