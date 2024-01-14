@@ -117,6 +117,9 @@ form ul li {
   color: white;
 }
 
+.desktop_nav ul li a:hover {
+  color: #42526e;
+}
 .work_detail_close_icon {
   font-size: 26px;
   position: absolute;
