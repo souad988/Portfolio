@@ -1,5 +1,14 @@
 const projectsData = [
   {
+    id: 9,
+    LinkToSource: 'https://github.com/souad988/coalitions',
+    linkToLiveVersion: 'https://reservations-i9dg.onrender.com/',
+    image: './media/images/projects/reservations2.png',
+    description: 'Experience a streamlined React-powered UI designed for effortless mountain trip reservations. this project provides an engaging and user-friendly interface for travelers to explore, plan, and book mountain adventures with ease. With modern aesthetics and responsive design, this application offers a seamless reservation process, empowering users to embark on unforgettable journeys into the heart of nature\'s wonders.',
+    name: 'Reservations',
+    technologies: ['React.js', 'Redux', 'MUI'],
+  },
+  {
     id: 1,
     LinkToSource: 'https://github.com/souad988/covid19-tracker',
     linkToLiveVersion: 'https://deploy-preview-5--statistics-covid19-tracker.netlify.app/',
@@ -45,7 +54,7 @@ const projectsData = [
     technologies: ['Rails', 'PostgreSQL', 'CSS', 'JavaScript'],
   },
   {
-    id: 5,
+    id: 6,
     LinkToSource: 'https://github.com/souad988/math-magician',
     linkToLiveVersion: 'https://souad-math-magicians.netlify.app/',
     image: './media/images/projects/math_magician.png',
